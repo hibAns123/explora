@@ -1,0 +1,201 @@
+.nav1 {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1400px;
+    height: 54px;
+    margin-top: 22px;
+
+}
+
+.link {
+    padding: 7px;
+    margin: 10px;
+    width: 1400px;
+    text-decoration: none;
+
+}
+.link a:hover{
+    background-color: gray;
+}
+
+.link>a>h1 {
+color: white;
+    width: 154.55px;
+    height: 38.7px;
+}
+
+.link>a>button {
+    border-radius: 20px;
+    height: 27px;
+    width: 130px;
+    border: 0px;
+    font-size: 12px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.dir a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'DM Sans', sans-serif;
+font-size: 20px;
+}
+.head p{
+    color: rgb(128, 86, 86);
+    font-weight: 700px;
+}
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .pimg1{
+    margin-top: 0px;
+    z-index: -1;
+  }
+  .pimg1, .pimg2, .pimg3{
+    
+    position:relative;
+    /* opacity:0.70; */
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+   
+    background-attachment:fixed;
+  }
+  
+  .pimg1{
+    background-image:url('https://images.alphacoders.com/134/1344524.png');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url('https://wallpapers.com/images/featured/disney-has6vy47k75d0bzs.jpg');
+    min-height:400px;
+  }
+  
+  .pimg3{
+    background-image:url('https://img.freepik.com/premium-photo/fantasy-colorful-candyland-scene-wallpaper_973189-14434.jpg');
+    min-height:400px;
+  }
+  
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color:#ddd;
+  }
+ 
+  .card1{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 130px;
+  }
+  .pimg1 h5{
+    margin: 0px 100px;
+    color: white;
+    padding-bottom: 0px;
+padding-top: 100px;
+  }
+  .pi{
+    margin-right: 50px;
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+    font-weight: 700PX;
+  }
+ 
+  .but{
+    display: flex;
+    justify-content: center;
+  }
+  /* footer */
+footer {
+    background-color: rgb(45, 45, 53);
+    color: white;
+    height: 100px;
+}
+
+.canv a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.canv p {
+    width: 257px;
+}
+
+.canv h5 {
+    size: 20px;
+}
+
+
+
+
+
+.copy {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    /* margin: 100px 200px; */
+
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 230px; */
+    
+}
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
